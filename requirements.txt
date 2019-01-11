@@ -1,0 +1,8 @@
+matplotlib==3.0.2
+nltk==3.4
+numpy==1.15.4
+Pillow==5.3.0
+torch==1.0.0
+torchvision==0.2.1
+sockjs-tornado==1.0.6
+tornado==5.1.1
