@@ -134,3 +134,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+
+# ignore infersent dir
+infersent/
