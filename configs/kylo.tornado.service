@@ -1,0 +1,25 @@
+# This is the systemd script for Tornado
+# rename this file to kylo.tornado.service
+# and place it in /etc/systemd/system/
+#
+# $ vi /etc/systemd/system/kylo.tornado.service
+#
+# Run following to enable
+# 
+# $ systemctl daemon-reload
+# $ systemctl enable kylo.tornado.service
+# $ systemctl start kylo.tornado.service
+
+[Unit]
+Description=Tornado server for FAQ Bot
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/home/avi/kylo
+ExecStart=/home/avi/kylo/venv/bin/python3 server.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
