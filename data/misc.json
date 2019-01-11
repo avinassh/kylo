@@ -1,0 +1,21 @@
+[
+    {
+        "question": [
+            "who made you",
+            "who created you"
+        ],
+        "answer": [
+            "Avinash"
+        ]
+    },
+    {
+        "question": [
+            "is your source code available somewhere",
+            "are you open source",
+            "what is the license of your source code"
+        ],
+        "answer": [
+            "My souce code is open souce and hosted on Github - https://github.com/avinassh/faq-bot released under MIT license"
+        ]
+    }
+]

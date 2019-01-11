@@ -1,0 +1,98 @@
+[{
+		"question": [
+			"What is backpropagation",
+			"How does backpropagation work",
+			"Can you explain me backpropagation"
+		],
+		"answer": [
+			"Michael Nielsen: Neural Networks and Deep Learning - Chapter 2: http://neuralnetworksanddeeplearning.com/chap2.html",
+			"Getting Started with PyTorch Part 1: Understanding how Automatic Differentiation works - https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec"
+		]
+	},
+	{
+		"question": [
+			"What is perceptron algorithm",
+			"How does perceptron algorithm work",
+			"Can you explain me perceptron algorithm"
+		],
+		"answer": [
+			"What the Hell is Perceptron? - https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53"
+		]
+	},
+	{
+		"question": [
+			"What is optimal learning rate?",
+			"How to find the optimal learning rate?"
+		],
+		"answer": [
+			"Estimating an Optimal Learning Rate For a Deep Neural Network - https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0",
+			"A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay - https://arxiv.org/abs/1803.09820"
+		]
+	},
+	{
+		"question": [
+			"What is cross entropy Loss?",
+			"How does cross entropy Loss work",
+			"Can you explain me cross entropy Loss"
+		],
+		"answer": [
+			"Understanding binary cross-entropy / log loss: a visual explanation - https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a",
+			"Cross - entropy notes from #math-help - https://drive.google.com/file/d/1zCPZ1cnwaqVYzEL54WFcc7J34IZDYSRf/view"
+		]
+	},
+	{
+		"question": [
+			"What is bias",
+			"How does bias work",
+			"Can you explain bias to me"
+		],
+		"answer": [
+			"Role of Bias in Neural Networks - https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks",
+			"But what is a Neural Network? Deep learning, chapter 1 - https://www.youtube.com/watch?v=aircAruvnKk"
+		]
+	},
+	{
+		"question": [
+			"What is Gradient Descent",
+			"How does Gradient Descent work",
+			"Can you explain Gradient Descent to me"
+		],
+		"answer": [
+			"Gradient descent, how neural networks learn | Deep learning, chapter 2 - https://www.youtube.com/watch?v=IHZwWFHWa-w&t=2s",
+		]
+	},
+	{
+		"question": [
+			"Why do we need activation function?",
+			"Why activation function?"
+		],
+		"answer": [
+			"Activation functions and it’s types-Which is better? - https://towardsdatascience.com/activation-functions-and-its-types-which-is-better-a9a5310cc8f"
+		]
+	},
+	{
+		"question": [
+			"what is the functionality of dropout and how it prevents overfitting?",
+			"What is dropout",
+			"How does dropout work",
+			"Can you explain dropout to me"
+		],
+		"answer": [
+			"Dropout randomly selects neurons to ignore during training, because the neurons aren't always present during training, the layer learns to use all of its inputs, improving generalization",
+			"Learning Less to Learn Better — Dropout in (Deep) Machine learning - https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5",
+			"How to explain dropout regularization in simple terms? - https://stats.stackexchange.com/questions/241645/how-to-explain-dropout-regularization-in-simple-terms"
+		]
+	},
+	{
+		"question": [
+			"When and why is One Hot Encoding used?",
+			"What is One Hot Encoding",
+			"How does One Hot Encoding  work",
+			"Can you explain One Hot Encoding to me"
+		],
+		"answer": [
+			"Smarter Ways to Encode Categorical Data for Machine Learning (Part 1 of 3) - https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159",
+			"One-vs-All Classification Using Logistic Regression - https://utkuufuk.github.io/2018/06/03/one-vs-all-classification/"
+		]
+	}
+]

@@ -1,0 +1,86 @@
+[{
+		"question": [
+			"What is the use of Transfrom in dataloader?",
+			"How does Transfroms work",
+			"Can you explain me Transfroms"
+		],
+		"answer": [
+			"What are Transform and Transform Normalize? - https://medium.com/@ml_kid/what-is-transform-and-transform-normalize-lesson-4-neural-networks-in-pytorch-ca97842336bd"
+		]
+	},
+	{
+		"question": [
+			"why I'm getting this error: AttributeError: module 'helper' has no attribute 'view_classify'",
+			"how to fix helper module issues",
+			"error with helper module has no attribute",
+			"helper module not found"
+		],
+		"answer": [
+			"Dealing with helper module issues - https://medium.com/@ml_kid/dealing-with-helper-module-issues-lesson-4-dd8d1a354cb"
+		]
+	},
+	{
+		"question": [
+			"What is the difference between: Output = model(images) and Output = model.forward(images)?"
+		],
+		"answer": [
+			"The difference is that all the hooks are dispatched in the call function, so if you call .forward and have hooks in your model, the hooks won’t have any effect. Check this discussion: https://discuss.pytorch.org/t/any-different-between-model-input-and-model-forward-input/3690"
+		]
+	},
+	{
+		"question": [
+			"I need help regarding transfer learning using PyTorch",
+			"What is transfer learning",
+			"How does transfer learning work",
+			"Can you explain me transfer learning"
+		],
+		"answer": [
+			"Transfer Learning Tutorial - https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+		]
+	},
+	{
+		"question": [
+			"Could anyone tell me what is Top-1 error and Top-5 error of pre-trained networks in torchvision.models?"
+		],
+		"answer": [
+			"First, you make a prediction using the CNN and obtain the predicted class multinomial distribution (∑pclass=1). Now, in the case of top-1 score, you check if the top class (the one having the highest probability) is the same as the target label. In the case of top-5 score, you check if the target label is one of your top 5 predictions (the 5 ones with the highest probabilities). In both cases, the top score is computed as the times a predicted label matched the target label, divided by the number of data-points evaluated. Finally, when 5-CNNs are used, you first average their predictions and follow the same procedure for calculating the top-1 and top-5 scores. Suppose your classifier gives you a probability for each class. Lets say we had only 'cat', 'dog', 'house', 'mouse' as classes (in this order). Then the classifier gives something like 0.1; 0.2; 0.0; 0.7 as a result. The Top-1 class is 'mouse'. The top-2 classes are {mouse, dog}. If the correct class was 'dog', it would be counted as 'correct' for the Top-2 accuracy, but as wrong for the Top-1 accuracy. Hence, in a classification problem with k possible classes, every classifier has 100% top-k accuracy. The 'normal' accuracy is top-1."
+		]
+	},
+	{
+		"question": [
+			"What is the difference between model.fc1.weight and model.fc1.weight.data?"
+		],
+		"answer": [
+			"Both are actual weight. the difference is the data type, fc1.weight is an instance of Parameter where fc1.weight.data is a Tensor. Parameter is subtype/subclass of Tensor."
+		]
+	},
+	{
+		"question": [
+			"Why have we used 256 hidden units?",
+			"How do we determine the number of hidden layers?",
+			"what is the reason behind number of hidden units selected"
+		],
+		"answer": [
+			"There is no mathematical logic behind this number; it is just convention. You can pick your own number, or treat it as a hyperparameter and find out what is an optimal number of hidden units.",
+			"How to choose the number of hidden layers and nodes in a feedforward neural network? - https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw",
+			"Multi-layer perceptron (MLP) architecture: criteria for choosing number of hidden layers and size of the hidden layer? - https://stackoverflow.com/questions/10565868/multi-layer-perceptron-mlp-architecture-criteria-for-choosing-number-of-hidde"
+		]
+	},
+	{
+		"question": [
+			"What are PyTorch tensors?"
+		],
+		"answer": [
+			"A torch.Tensor is a multi-dimensional matrix containing elements of a single data type. More - https://pytorch.org/docs/stable/tensors.html#torch-tensor"
+		]
+	},
+	{
+		"question": [
+			"Hello, can someone explain to me what is 'batch' size?",
+			"How does batch size work"
+		],
+		"answer": [
+			"it is the number of samples that going to be propagated through the network. For instance, let’s say you have 1000 training samples and you want to set up batch_size equal to 100. Algorithm takes first 100 samples (from 1st to 100th) from the training dataset and trains network. Next it takes second 100 samples (from 101st to 200th) and train network again. We can keep doing this procedure until we will propagate through the networks all samples"
+		]
+	}
+]
